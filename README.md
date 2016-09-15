@@ -1,9 +1,12 @@
 # README #
 
-### Console commands ###
+### Install commands ###
+* composer install
+* bin/console assets:install
 
-* bin/console doctrine:database:create
-* bin/console generate:bundle
-* bin/console doctrine:generate:entity
-* bin/console doctrine:schema:update --force
-* bin/console assets:install# micro
+### Console commands ###
+* bin/console server:run 
+* bin/console ca:cl
+* bin/console ca:wa
+
+
