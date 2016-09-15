@@ -1,0 +1,20 @@
+
+# Cache, session files and logs (Symfony3)
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+
+# Managed by Composer
+/vendor/
+
+# Assets
+/web/bundles/
+
+# Composer PHAR
+/composer.phar
+
+# Backup entities generated with doctrine:generate:entities command
+*/Entity/*~
